@@ -10,7 +10,7 @@ cat > ./index.html << EOL
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Hello World</title>
+        <title>${1}</title>
         <style>
             body { margin: 0; padding: 0; }
             canvas#webgl { width: 100%; height: 100%; }
